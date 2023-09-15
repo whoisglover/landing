@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { colors, colorCombos, ColorCombination } from './modules/colors'
+import { useState, useEffect } from 'react'
+import { colorCombos, ColorCombination } from './modules/colors'
 import './App.css'
 
 function App() {
