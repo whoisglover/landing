@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/static/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/static/JetBrainsMono-Bold.ttf') format('truetype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'JetBrains Mono', sans-serif; /* Replace with your desired Google Font */
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.text {
+  font-size: 1.5em;
+}
